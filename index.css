@@ -1,0 +1,58 @@
+/*h1{
+	text-align: center;
+}
+img{
+	vertical-align: text-top;
+	width: 32.7%;
+	}
+section{
+	height: 90%;
+	margin: 20px auto;
+	background: #f4f4f4;
+}	
+#output{
+	height: 400px;
+}
+
+#output img{
+	widows: 100%;
+}*/
+body{
+	background-color: lightgreen; 
+}
+h1{
+	text-align: center;
+}
+ul li{
+	display: inline-block;
+	text-align: center;
+}
+img{
+	margin: 15px ;
+}
+#screen{
+	width:970px;
+	height: 550px;
+	margin: 10px auto;
+	background-image: url("images/img01.png");
+	background-size: cover;
+	box-shadow: 2px 3px 4px 4px green;
+}
+.right, .left{
+	width: 100px;
+	height: 40px;
+	font-size: 230%;
+	font-family: sans-serif;
+	background: #999;
+	box-shadow: 1px 1px 2px 2px green;
+	display: inline-block;
+}
+.left{
+float: left;
+margin: 0 120px; 
+
+}
+.right{
+float: right;
+margin: 0 120px;
+}
